@@ -1,0 +1,18 @@
+참고. 난수 생성 : np.random 모듈
+np.random.seed(seed값)
+
+#### 난수 생성 함수
+
+- random.rand() : 주어진 형태의 난수 배열 생성
+- random.randint(최소값, 최대값, size=n) 
+    - [최소값, 최대값)의 범위에서 임의의 정수 생성
+    
+- random.randn() : 표준정규분포(Standard normal distribution)로부터 샘플링된 난수 생성
+
+- random.standard_normal() : 표준정규분포 난수 발생
+
+- random.normal([loc, scale, size]) : 정규분포 난수 생성
+
+- random.random_sample(size) : [0,1)사이의 난수 생성
+
+- random.choice(a[, size, replace, p]) : 주어진 배열로 부터 표본추출

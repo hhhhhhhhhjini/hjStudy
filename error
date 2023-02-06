@@ -1,0 +1,5 @@
+오늘의 에러
+'utf-8' codec can't decode byte 0xc0 in position 0: invalid start byte
+
+해결
+인코딩 과정에서의 에러이므로, pandas.read_csv 함수의 파라미터로 "encoding='cp949'"를 포함시켜준다. 
